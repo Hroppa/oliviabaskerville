@@ -14,6 +14,12 @@
   --gloss-background: #fff9f0;
 }
 
+/* Add to the top of your CSS, after the variables */
+html {
+  overflow-y: scroll;  /* Always show scrollbar */
+  scrollbar-gutter: stable;  /* Reserve space for scrollbar */
+}
+
 /* Base styles */
 * {
   margin: 0;
@@ -27,6 +33,7 @@ body {
   line-height: 1.7;
   color: var(--text-color);
   background: var(--background-color);
+  padding-right: 0;  /* Prevent content shift */
 }
 
 /* Layout */
@@ -40,11 +47,8 @@ body {
 header {
   padding: 2rem;
   border-bottom: 2px solid var(--border-color);
-  margin-bottom: 2rem;
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 2rem auto;
+  background-color: #fff;
+  margin: 0;  /* Remove all margins */
 }
 
 nav {
@@ -131,8 +135,8 @@ p + p:has(ul), p + p:has(ol) {
 .sidenote {
   float: right;
   clear: right;
-  margin-right: -45%;
-  width: 40%;
+  margin-right: -65%;
+  width: 50%;
   margin-top: 0.3em;
   margin-bottom: 1em;
   font-size: 0.85em;
@@ -255,17 +259,15 @@ footer {
 }
 
 .content-panel {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 2rem;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 2rem auto;
-    max-width: 800px;
+  background-color: #fff;
+  padding: 3rem;
+  margin: 0;
+  max-width: 800px;
 }
 
 /* Make sure the sidenotes still work with the panel */
 .sidenote {
-    background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 /* List styling */
@@ -321,4 +323,34 @@ li li {
     margin: 1rem auto;
     max-width: 150px;
   }
+}
+
+/* Content wrapper with border */
+.content-wrapper {
+  background-color: #fff;
+  margin: 2rem auto;
+  position: relative;
+  padding: 0rem;
+  max-width: 800px;
+}
+
+/* Create the pattern border using pseudo-elements */
+.content-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  right: -35px;
+  bottom: -35px;
+  background-image: url('/assets/images/floral1.png');
+  background-size: 140px 140px;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+/* Ensure content is above the pattern */
+.content-panel, header {
+  position: relative;
+  z-index: 1;
+  background: #fff;
 }

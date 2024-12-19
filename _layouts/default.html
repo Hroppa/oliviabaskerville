@@ -13,22 +13,24 @@
 <body>
     <div class="pattern"></div>
     <div class="container">
-        <header>
-            <nav>
-                <a href="/" class="site-title" style="padding: 1rem;">{{ site.title }}</a>
-                <div class="nav-links" style="padding: 1rem;">
-                    <a href="/about">About</a>
-                    <a href="/research">Research</a>
-                    <a href="/contact">Contact</a>
-                </div>
-            </nav>
-        </header>
+        <div class="content-wrapper">
+            <header>
+                <nav>
+                    <a href="/" class="site-title" style="padding: 1rem;">{{ site.title }}</a>
+                    <div class="nav-links" style="padding: 1rem;">
+                        <a href="/about">About</a>
+                        <a href="/research">Research</a>
+                        <a href="/contact">Contact</a>
+                    </div>
+                </nav>
+            </header>
 
-        <main class="content-panel">
-            <article>
-                {{ content }}
-            </article>
-        </main>
+            <main class="content-panel">
+                <article>
+                    {{ content }}
+                </article>
+            </main>
+        </div>
 
         <footer>
             <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
