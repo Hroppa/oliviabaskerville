@@ -1,6 +1,3 @@
----
----
-
 /* Variables */
 :root {
   --primary-color: #2b0f0f;
@@ -8,8 +5,8 @@
   --text-color: #2b0f0f;
   --background-color: #fff9f0;
   --border-color: #d4c5b9;
-  --font-display: 'Cardo', Georgia, serif;
-  --font-body: 'Libre Baskerville', Georgia, serif;
+  --font-display: "Cardo", Georgia, serif;
+  --font-body: "Libre Baskerville", Georgia, serif;
 }
 
 /* Base styles */
@@ -85,21 +82,26 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
-h1 { 
-  font-size: 3rem; 
+h1 {
+  font-size: 3rem;
   margin-top: 0;
   color: var(--accent-color);
   line-height: 1.1;
 }
 
-h2 { 
+h2 {
   font-size: 2.25rem;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.3em;
 }
 
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
 
 p, ul, ol {
   margin-bottom: 1.5rem;
@@ -137,7 +139,7 @@ h2 + p::first-letter {
 
 /* Code blocks */
 pre, code {
-  font-family: 'Consolas', 'Monaco', monospace;
+  font-family: "Consolas", "Monaco", monospace;
   background: rgba(0, 0, 0, 0.05);
   padding: 0.2em 0.4em;
   border-radius: 3px;
@@ -198,33 +200,37 @@ footer {
     margin: 1.5em 0;
     margin-right: 0;
   }
-  
   .container {
     max-width: 100%;
   }
 }
-
 @media screen and (max-width: 600px) {
   nav {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
   }
-  
   .nav-links a {
     margin: 0 0.75rem;
   }
-  
-  h1 { font-size: 2.5rem; }
-  h2 { font-size: 2rem; }
-  h3 { font-size: 1.75rem; }
-  h4 { font-size: 1.5rem; }
-  
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
   body {
     font-size: 1rem;
   }
-  
   .site-title {
     font-size: 2rem;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

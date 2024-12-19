@@ -1,0 +1,18 @@
+/* Print and non-screen styles */
+.wrapper {
+  width: auto;
+  margin: 0;
+}
+
+header, footer, .download-bar {
+  display: none;
+}
+
+#main {
+  padding: 20px;
+  border: none;
+}
+
+pre, code {
+  white-space: pre-wrap;
+} 
