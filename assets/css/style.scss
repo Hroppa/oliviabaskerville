@@ -3,6 +3,16 @@
 
 @import 'jekyll-theme-merlot';
 
+/* Hide GitHub links */
+#banner, .ribbon, #logo {
+  display: none !important;
+}
+
+/* Adjust header spacing */
+header {
+  padding-top: 20px !important;
+}
+
 .sidenote {
   float: right;
   clear: right;
