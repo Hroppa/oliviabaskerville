@@ -113,8 +113,7 @@ p, ul, ol {
 }
 
 /* First letter styling for paragraphs after headings */
-h1 + p.dropcap::first-letter,
-h2 + p.dropcap::first-letter {
+p.dropcap::first-letter {
   font-family: var(--font-display);
   font-size: 4em;
   float: left;
@@ -123,12 +122,6 @@ h2 + p.dropcap::first-letter {
   color: var(--accent-color);
   margin-right: 0.05em;
   margin-top: 0.1em;
-}
-
-/* Disable dropcaps for paragraphs containing lists and paragraphs before lists */
-p:has(ul), p:has(ol),
-p + p:has(ul), p + p:has(ol) {
-  font-size: inherit;
 }
 
 /* Manuscript Gloss styling */
