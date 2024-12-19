@@ -7,7 +7,9 @@ title: About
 
 ## Academic Profile
 
+<p class="dropcap">
 I am a Ph.D. Candidate at the School of Advanced Study, University of London, specializing in the intersection of medieval manuscript studies, material culture, and national identity formation in early twentieth-century Britain.
+</p>
 
 <div class="sidenote">
 My research bridges medieval studies with modern theoretical approaches to nationalism and collecting.
@@ -34,11 +36,9 @@ My work examines how medieval manuscripts transformed from historical sources in
 
 ## Current Research
 
+<p class="dropcap">
 My doctoral project stands at the crossroads of material culture studies and art history, examining pre-modern manuscript codices acquired by the British Museum between 1900 and 1939. This research investigates how these manuscripts were rhetorically justified as objects of 'national importance' during a period of rising nationalism and unprecedented art market activity.
-
-<div class="sidenote">
-The early 20th century saw the convergence of nationalism, the 'Golden Age of Collecting,' and the professionalisation of museum practices.
-</div>
+</p>
 
 ## Academic Background
 
@@ -55,10 +55,6 @@ My work contributes to multiple fields:
 * Museum studies
 * Nationalism studies
 * History of collecting
-
-<div class="sidenote">
-This research offers new perspectives on how national heritage objects are historically defined and codified.
-</div>
 
 ---
 

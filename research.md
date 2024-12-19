@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Projects
+title: Research
 ---
 
 # Doctoral Research
 
 ## Collecting the Nation: National Identity and the Circulation of Medieval Manuscripts in Britain, 1900-1939
 
-### Project Overview
-
+<p class="dropcap">
 My doctoral research interrogates how medieval manuscripts were transformed into symbols of national identity in early twentieth-century Britain. This transformation occurred during a unique historical convergence:
+</p>
 
 * The First World War and rising nationalism in western Europe
 * The 'Golden Age of Collecting' in the international art market
@@ -19,19 +19,17 @@ My doctoral research interrogates how medieval manuscripts were transformed into
 The project examines how pre-modern, handmade books were understood to represent the modern nation.
 </div>
 
-### Research Questions
+## Research Questions
 
-My thesis investigates several key questions:
+<p class="dropcap">
+My thesis investigates several key questions: how medieval books transitioned from historical sources to embodiments of national identity; who had the cultural authority to claim particular books were essential for the nation; what assumptions underpinned these claims of national importance; how the British Museum's collection became seen as the natural place for their preservation; and what relationship these books had to the telling of national history.
+</p>
 
-* How did medieval books transition from historical sources to embodiments of national identity?
-* Who had the cultural authority to claim particular books were essential for the nation?
-* What assumptions underpinned these claims of national importance?
-* How did the British Museum's collection become seen as the natural place for their preservation?
-* What relationship did these books have to the telling of national history?
+## Methodology
 
-### Methodology
-
+<p class="dropcap">
 The research analyzes rhetorical discourse about manuscript books of 'national importance' across multiple contexts:
+</p>
 
 * Private correspondence
 * Public debate
