@@ -1,0 +1,15 @@
+.pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+  background-color: #fcfbf7;
+  background-image: url("/assets/images/floral1.png");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+}
+
+/*# sourceMappingURL=pattern.css.map */

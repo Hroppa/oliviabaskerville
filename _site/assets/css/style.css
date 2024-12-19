@@ -35,16 +35,20 @@ body {
 
 /* Header and Navigation */
 header {
-  padding: 2rem 0;
+  padding: 2rem;
   border-bottom: 2px solid var(--border-color);
   margin-bottom: 2rem;
-  background: linear-gradient(to bottom, transparent, var(--background-color) 90%);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .site-title {
@@ -53,18 +57,21 @@ nav {
   color: var(--accent-color);
   text-decoration: none;
   line-height: 1.2;
+  padding: 0.5rem 0;
 }
 
 .nav-links {
   font-family: var(--font-display);
+  padding: 0.5rem 0;
 }
 
 .nav-links a {
   color: var(--primary-color);
   text-decoration: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   font-size: 1.4rem;
   transition: color 0.2s;
+  padding: 0.5rem;
 }
 
 .nav-links a:hover {
@@ -244,6 +251,74 @@ footer {
   }
   .site-title {
     font-size: 2.25rem;
+  }
+}
+.content-panel {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* Make sure the sidenotes still work with the panel */
+.sidenote {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* List styling */
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem; /* Indent from the left margin */
+}
+
+/* Nested lists */
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-bottom: 0; /* Remove bottom margin for nested lists */
+  padding-left: 2rem; /* Additional indent for nested items */
+}
+
+/* List items */
+li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Nested list items */
+li li {
+  margin-bottom: 0.25rem; /* Slightly less space between nested items */
+}
+
+/* Header with image */
+.header-with-image {
+  position: relative;
+  margin-bottom: 1.5em;
+  overflow: hidden; /* Clear the float */
+}
+
+.header-with-image h2 {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.header-image {
+  float: right;
+  max-width: 200px;
+  height: auto;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Make it responsive */
+@media screen and (max-width: 600px) {
+  .header-image {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+    max-width: 150px;
   }
 }
 
