@@ -3,14 +3,9 @@
 
 @import 'jekyll-theme-merlot';
 
-/* Hide GitHub links */
-#banner, .ribbon, #logo {
+/* Hide just the GitHub links */
+a[href*="github.com"] {
   display: none !important;
-}
-
-/* Adjust header spacing */
-header {
-  padding-top: 20px !important;
 }
 
 .sidenote {
