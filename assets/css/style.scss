@@ -2,3 +2,26 @@
 ---
 
 @import "{{ site.theme }}";
+
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -35%;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+  padding: 10px;
+  border-left: 3px solid #6d1b1b;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 1024px) {
+  .sidenote {
+    float: none;
+    margin: 1em 0;
+    width: 100%;
+    margin-right: 0;
+  }
+}
