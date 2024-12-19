@@ -7,10 +7,6 @@ title: Projects
 
 ## Collecting the Nation: National Identity and the Circulation of Medieval Manuscripts in Britain, 1900-1939
 
-<div class="sidenote">
-This research contributes to our understanding of how national heritage objects are historically defined and codified.
-</div>
-
 ### Project Overview
 
 My doctoral research interrogates how medieval manuscripts were transformed into symbols of national identity in early twentieth-century Britain. This transformation occurred during a unique historical convergence:
@@ -42,14 +38,6 @@ The research analyzes rhetorical discourse about manuscript books of 'national i
 * Museum acquisition records
 * Press coverage
 * Institutional archives
-
-<div class="sidenote">
-The research encompasses perspectives from museum curators, private collectors, industrialists, learned societies, and religious institutions.
-</div>
-
-<div class="sidenote">
-The research will contribute to understanding how national heritage objects, which might seem self-evidently representative of the nation to modern eyes, have been historically defined and codified.
-</div>
 
 ---
 
