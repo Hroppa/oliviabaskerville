@@ -3,11 +3,6 @@
 
 @import 'jekyll-theme-merlot';
 
-/* Hide just the GitHub links */
-a[href*="github.com"] {
-  display: none !important;
-}
-
 .sidenote {
   float: right;
   clear: right;
