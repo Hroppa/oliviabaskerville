@@ -1,41 +1,37 @@
 ---
 layout: default
+title: Home
 ---
 
-# Welcome to My Website
+# Welcome to My Portfolio
 
-## Exploring the Merlot Theme
+I'm Olivia Baskerville, and this is my personal website. Here you'll find information about my work, projects, and professional journey.
 
-This is a demonstration of the elegant Merlot theme for GitHub Pages. The theme features a rich burgundy color scheme with classic typography.
+## Navigation
 
-### Theme Features
+* [About Me](about) - Learn about my background and expertise
+* [Projects](projects) - View my portfolio of work
+* [Contact](contact) - Get in touch with me
 
-* Sophisticated burgundy and gray color palette
-* Elegant typography and heading styles
-* Clean content layout
-* Responsive design
+## Recent Updates
 
-### Sample Content Section
+Here's what I've been working on lately:
 
-Below is a demonstration of various content elements:
+### Latest Project
+> Exciting new developments coming soon!
 
-#### Code Example
+### Current Focus
+* Professional development in [field]
+* Collaboration opportunities
+* Technical writing and documentation
+
+## Featured Content
 
 ```python
-def hello_world():
-    print("Hello, Merlot theme!")
+def welcome_message():
+    return "Thanks for visiting my site!"
 ```
-
-#### Blockquote Example
-
-> The Merlot theme provides an elegant, sophisticated look perfect for project documentation and personal websites.
-
-### Getting Started
-
-1. Choose the Merlot theme in your repository settings
-2. Customize your content
-3. Push your changes to GitHub
 
 ---
 
-Created with ❤️ using GitHub Pages and the Merlot theme 
+Feel free to explore the different sections of my website using the navigation links above. 
