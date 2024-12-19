@@ -1,4 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "webrick" # Required for Ruby 3.0+ 
+ruby "3.1.0"
+
+gem "jekyll", "~> 4.3.0"
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-remote-theme"
+end
