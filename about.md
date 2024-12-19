@@ -5,52 +5,61 @@ title: About
 
 # About Me
 
-## Background
+## Academic Profile
 
-I'm a passionate professional with expertise in various fields. This section showcases my background, skills, and interests.
+I am a Ph.D. Candidate at the School of Advanced Study, University of London, specializing in the intersection of medieval manuscript studies, material culture, and national identity formation in early twentieth-century Britain.
 
 <div class="sidenote">
-Fun fact: I started my journey in technology at age 12 when I built my first website!
+My research bridges medieval studies with modern theoretical approaches to nationalism and collecting.
 </div>
 
-### Skills & Expertise
+## Research Interests
 
-* Skill Category 1
-  * Subskill A
-  * Subskill B
-* Skill Category 2
-  * Subskill C
-  * Subskill D
+* Medieval Manuscript Studies
+  * Codicology and Material Culture
+  * History of Collecting
+  * Manuscript Circulation
+* Museum Studies
+  * National Heritage Formation
+  * Institutional History
+  * Collection Development
+* British Cultural History
+  * Early 20th Century
+  * Imperial Period
+  * Nationalism Studies
 
 <div class="sidenote">
-These skills were developed through both formal education and hands-on project experience.
+My work examines how medieval manuscripts transformed from historical sources into embodiments of national identity.
 </div>
 
-### Education
+## Current Research
 
-> "Education is not preparation for life; education is life itself." - John Dewey
+My doctoral project stands at the crossroads of material culture studies and art history, examining pre-modern manuscript codices acquired by the British Museum between 1900 and 1939. This research investigates how these manuscripts were rhetorically justified as objects of 'national importance' during a period of rising nationalism and unprecedented art market activity.
 
 <div class="sidenote">
-This quote has been my guiding principle throughout my academic journey.
+The early 20th century saw the convergence of nationalism, the 'Golden Age of Collecting,' and the professionalisation of museum practices.
 </div>
 
-I've pursued education in various fields, focusing on continuous learning and professional development.
+## Academic Background
 
-### Professional Experience
+* **Ph.D. Candidate** - School of Advanced Study, University of London
+  * Thesis: "Collecting the Nation: National Identity and the Circulation of Medieval Manuscripts in Britain, 1900-1939"
+  * Supervisors: Dr Laura Cleaver and Prof Julia Crick
+  * Expected completion: December 2024
 
-My career journey has included:
+## Research Impact
 
-1. Position One (2020-Present)
-   * Achievement A
-   * Achievement B
-2. Position Two (2018-2020)
-   * Achievement C
-   * Achievement D
+My work contributes to multiple fields:
+* Historiography of medieval Britain
+* Medieval art history
+* Museum studies
+* Nationalism studies
+* History of collecting
 
 <div class="sidenote">
-Each role has contributed uniquely to my professional growth and perspective.
+This research offers new perspectives on how national heritage objects are historically defined and codified.
 </div>
 
 ---
 
-Feel free to [contact me](contact) for collaborations or opportunities. 
+For research inquiries or collaboration opportunities, please [contact me](contact). 
