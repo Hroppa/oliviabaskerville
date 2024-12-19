@@ -5,7 +5,7 @@
   --text-color: #2b0f0f;
   --background-color: #fff9f0;
   --border-color: #d4c5b9;
-  --font-display: "Cardo", Georgia, serif;
+  --font-display: "UnifrakturMaguntia", Georgia, serif;
   --font-body: "Libre Baskerville", Georgia, serif;
 }
 
@@ -48,10 +48,8 @@ nav {
 .site-title {
   font-family: var(--font-display);
   font-size: 2.5rem;
-  font-weight: 700;
   color: var(--accent-color);
   text-decoration: none;
-  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 
@@ -63,8 +61,7 @@ nav {
   color: var(--primary-color);
   text-decoration: none;
   margin-left: 1.5rem;
-  font-size: 1.2rem;
-  letter-spacing: 0.02em;
+  font-size: 1.4rem;
   transition: color 0.2s;
 }
 
@@ -76,31 +73,28 @@ nav {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   color: var(--primary-color);
-  line-height: 1.2;
+  line-height: 1.1;
   margin: 1.5em 0 0.5em;
-  font-weight: 700;
-  letter-spacing: 0.02em;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-top: 0;
   color: var(--accent-color);
-  line-height: 1.1;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.3em;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 p, ul, ol {
@@ -111,11 +105,13 @@ p, ul, ol {
 h1 + p::first-letter,
 h2 + p::first-letter {
   font-family: var(--font-display);
-  font-size: 3.5em;
+  font-size: 4em;
   float: left;
   line-height: 0.8;
-  padding-right: 0.1em;
+  padding: 0.1em 0.1em 0 0;
   color: var(--accent-color);
+  margin-right: 0.05em;
+  margin-top: 0.1em;
 }
 
 /* Sidenotes */
@@ -187,9 +183,8 @@ footer {
   border-top: 2px solid var(--border-color);
   text-align: center;
   font-family: var(--font-display);
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--primary-color);
-  letter-spacing: 0.02em;
 }
 
 /* Responsive design */
@@ -212,12 +207,13 @@ footer {
   }
   .nav-links a {
     margin: 0 0.75rem;
+    font-size: 1.2rem;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
   h3 {
     font-size: 1.75rem;
@@ -229,7 +225,7 @@ footer {
     font-size: 1rem;
   }
   .site-title {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 }
 
