@@ -61,12 +61,12 @@ nav {
   color: var(--accent-color);
   text-decoration: none;
   line-height: 1.2;
-  padding: 0.5rem 0;
+  padding: 0rem 0;
 }
 
 .nav-links {
   font-family: var(--font-display);
-  padding: 0.5rem 0;
+  padding: 0rem 0;
 }
 
 .nav-links a {
@@ -75,7 +75,7 @@ nav {
   margin-left: 1rem;
   font-size: 1.4rem;
   transition: color 0.2s;
-  padding: 0.5rem;
+  padding: 0rem;
 }
 
 .nav-links a:hover {
