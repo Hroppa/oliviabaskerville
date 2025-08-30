@@ -45,7 +45,7 @@ My doctoral project stands at the crossroads of material culture studies and art
 * **Ph.D. Candidate** - School of Advanced Study, University of London
   * Thesis: "Collecting the Nation: National Identity and the Circulation of Medieval Manuscripts in Britain, 1900-1939"
   * Supervisors: Dr Laura Cleaver and Prof Julia Crick
-  * Expected completion: December 2024
+  * Completed August 2025
 
 ## Research Impact
 
