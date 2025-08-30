@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# About Me - TEST
+# About Me
 
 ## Academic Profile
 
